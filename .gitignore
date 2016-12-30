@@ -1,37 +1,42 @@
-# ignore the following patterns
+
 /.idea
 
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# PTVS analysis
-.ptvs/
+# C extensions
+*.so
 
-# Build results
-/bin/
-/obj/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# User-specific files
-*.suo
-*.user
-*.sln.docstates
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Auto-generated virtual environment
-/env/
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
 
-# Auto-generated web.config
-/web.config
+# Translations
+*.mo
+*.pot
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Mac desktop service store files
-.DS_Store
+# Django stuff:
+*.log
+env/.Python
+env/Include/python2.7
+env/Lib/python2.7/
+env/bin/

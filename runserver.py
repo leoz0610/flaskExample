@@ -1,3 +1,7 @@
+"""
+This script runs the FlaskWebProject1 application using a development server.
+"""
+
 from os import environ
 from flaskExample import app
 
