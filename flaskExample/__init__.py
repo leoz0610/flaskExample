@@ -1,12 +1,9 @@
 #!/usr/bin/env python
 
 from flask import Flask
-from flask import render_template
 app = Flask(__name__)
 
-@app.route("/", methods=['GET'])
-def hello():
-  return render_template('hello.html')
+from flaskExample import program
+program.main()
 
-if __name__=="__main__":
-  app.run()
+from flaskExample import views
