@@ -1,1 +1,2 @@
 Flask<1
+oauth2client>1
